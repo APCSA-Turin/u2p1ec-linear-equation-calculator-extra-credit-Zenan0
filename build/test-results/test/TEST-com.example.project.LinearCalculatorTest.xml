@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.LinearCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-09T14:39:39" hostname="codespaces-b6e6fd" time="0.172">
+<testsuite name="com.example.project.LinearCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-24T05:40:22" hostname="codespaces-e1af06" time="0.139">
   <properties/>
-  <testcase name="testFindSymmetry()" classname="com.example.project.LinearCalculatorTest" time="0.048"/>
-  <testcase name="testMidpoint()" classname="com.example.project.LinearCalculatorTest" time="0.038"/>
+  <testcase name="testFindSymmetry()" classname="com.example.project.LinearCalculatorTest" time="0.027"/>
+  <testcase name="testMidpoint()" classname="com.example.project.LinearCalculatorTest" time="0.032"/>
   <testcase name="testPrintInfo1()" classname="com.example.project.LinearCalculatorTest" time="0.05"/>
-  <testcase name="testPrintInfo2()" classname="com.example.project.LinearCalculatorTest" time="0.022"/>
+  <testcase name="testPrintInfo2()" classname="com.example.project.LinearCalculatorTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
