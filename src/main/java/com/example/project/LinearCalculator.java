@@ -131,24 +131,24 @@ public class LinearCalculator{
     //return "Symmetric about the origin";
     //return "No symmetry";
     public String findSymmetry(){
-        if (x1 == x2 && y1 == -1 * y2) {
+        if (x1 == x2 && y1 == -1 * y2) { // Checks to see if the y values are the opposite of each other. If they are, the points are symmetric about the x-axis.
             return "Symmetric about the x-axis";
         }
-        if (x1 == -1 * x2 && y1 == y2) {
+        if (x1 == -1 * x2 && y1 == y2) { // Checks to see if the x values are the opposite of each other. If they are, the points are symmetric about the y-axis.
             return "Symmetric about the y-axis";
         }
-        if (x1 == -1 * x2 && y1 == -1 * y2) {
+        if (x1 == -1 * x2 && y1 == -1 * y2) { // Checks to see if the x and y values are the opposite of each other. If they are, the points are symmetric about the origin.
             return "Symmetric about the origin";
         }
-        return "No symmetry";
+        return "No symmetry"; // If none of the if statements meet their conditions, the points have no symmetry.
     }
 
     //Midpoint()->return a string 
     //the method should calculate the midpoint between the two points
     //it should return "The midpoint of this line is: (0,0)";
     public String Midpoint(){
-        double midPointX = ((double) x1 + x2) / 2;
-        double midPointY = ((double) y1 + y2) / 2;
+        double midPointX = ((double) x1 + x2) / 2; // Adds both x values together and divides by 2 to find the midpoint between x1 and x2.
+        double midPointY = ((double) y1 + y2) / 2; // Adds both y values together and divides by 2 to find the midpoint between y1 and y2.
         return "The midpoint of this line is: (" + midPointX + "," + midPointY + ")";
     }
 }
